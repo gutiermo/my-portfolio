@@ -1,0 +1,164 @@
+/* ========== Global Styles ========== */
+body {
+  background-color: white; /* Page background color */
+  color: black; /* Ensure text is readable */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set global font */
+  background-color: #f4f4f4; /* Light background for the entire app */
+}
+
+/* ========== Header Section ========== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #4a90e2; /* Header background color */
+  color: white;
+  height: 60vh; /* Adjust header height */
+  text-align: center; /* Center text within header */
+}
+
+.header-content {
+  max-width: 600px; /* Limit content width for readability */
+}
+
+/* Header Title and Subtitle */
+.header-content h1,
+.header-content h2 {
+  margin: 0;
+}
+
+/* Profile Image in Header */
+.profile-image {
+  width: 450px; /* Set width of the image */
+  height: 450px; /* Ensure square size */
+  border-radius: 5%; /* Circular image */
+  object-fit: cover; /* Crop the image to fit */
+  margin: 10px 0; /* Space above and below the image */
+}
+
+/* ========== CTA Button ========== */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e94e77; /* Button background color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners for button */
+  transition: background-color 0.3s;
+}
+
+/* CTA Button Hover Effect */
+.cta-button:hover {
+  background-color: #d43f69; /* Darker shade on hover */
+}
+
+/* ========== Skills Section ========== */
+.skills-section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 10px; /* Rounded corners for section */
+  max-width: 800px; /* Max width for section */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Skills List */
+.skills-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+}
+
+/* Individual Skill Items */
+.skills-list li {
+  padding: 5px 0; /* Add padding between skills */
+  font-size: 1.1em; /* Font size for skills */
+}
+
+/* ========== Projects Section ========== */
+.projects-section {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for section */
+  margin: 20px auto;
+  border-radius: 10px; /* Rounded corners */
+  max-width: 1000px; /* Max width for section */
+}
+
+/* Projects Section Title */
+.section-title {
+  text-align: center; /* Center the title */
+  color: #4a90e2; /* Title color */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Projects Grid Layout */
+.projects-grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between project cards */
+}
+
+/* Project Card Styling */
+.project-card {
+  background-color: white; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  overflow: hidden; /* Prevent content overflow */
+  transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+/* Project Card Hover Effect */
+.project-card:hover {
+  transform: scale(1.05); /* Scale card on hover */
+}
+
+/* Project Image Styling */
+.project-image {
+  width: 100%; /* Full width for image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Card Body (Text and Links) */
+.card-body {
+  padding: 15px; /* Padding inside the card */
+}
+
+/* Project Title */
+.project-title {
+  font-size: 1.5em; /* Font size for project title */
+  color: #333; /* Project title color */
+}
+
+/* Project Description */
+.project-description {
+  color: #666; /* Color for project descriptions */
+}
+
+/* View Project Link */
+.project-link {
+  display: inline-block; /* Make the link behave like a button */
+  margin-top: 10px; /* Space above the link */
+  text-decoration: none; /* Remove underline */
+  color: #4a90e2; /* Link text color */
+  border: 1px solid #4a90e2; /* Border around the link */
+  padding: 8px 12px; /* Padding for the link */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+/* View Project Link Hover Effect */
+.project-link:hover {
+  background-color: #4a90e2; /* Background on hover */
+  color: white; /* Text color on hover */
+}
+
+/* ========== Footer Section ========== */
+.footer {
+  background-color: #4a90e2; /* Footer background color */
+  color: white; /* Footer text color */
+  padding: 10px; /* Padding inside the footer */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
